@@ -1,0 +1,78 @@
+.countries__canada {
+  color: red; }
+
+.countries__argentina {
+  color: dodgerblue; }
+
+.countries__brazil {
+  color: green; }
+
+.countries__spain {
+  color: orange; }
+
+.countries__netherlands {
+  color: blue; }
+
+.card__1 {
+  border-bottom: 5px solid red; }
+
+.card__2 {
+  border-bottom: 5px solid blue; }
+
+.card__3 {
+  border-bottom: 5px solid red; }
+
+.card__4 {
+  border-bottom: 5px solid red; }
+
+.card__5 {
+  border-bottom: 5px solid blue; }
+
+.star__one {
+  background-repeat: repeat-y; }
+
+.star__two {
+  width: 30px; }
+
+.star__three {
+  width: 45px; }
+
+.star__four {
+  width: 60px; }
+
+.star__five {
+  width: 75px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%; }
+
+div {
+  width: 200px;
+  height: 300px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center; }
+  div .star__one, div .star__two, div .star__three, div .star__four, div .star__five {
+    width: 15px;
+    height: 15px;
+    border-radius: 0%;
+    display: block;
+    background-image: url("../images/images/star.svg");
+    margin: 30px auto;
+    border-bottom: none; }
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 40px; }
+
+/*# sourceMappingURL=styles.css.map */
