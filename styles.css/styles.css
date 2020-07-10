@@ -28,46 +28,42 @@
 .card__5 {
   border-bottom: 5px solid blue; }
 
-.star__one {
-  background-repeat: repeat-y; }
-
-.star__two {
-  width: 30px; }
-
-.star__three {
-  width: 45px; }
-
-.star__four {
-  width: 60px; }
-
-.star__five {
-  width: 75px; }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-main {
+.cards {
   display: flex;
   justify-content: space-around;
   margin-top: 10%; }
+  .cards__one {
+    width: 200px;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center; }
+    .cards__one p:nth-child(1) .star {
+      width: 15px; }
+    .cards__one p:nth-child(2) .star {
+      width: 30px; }
+    .cards__one p:nth-child(3) .star {
+      width: 45px; }
+    .cards__one p:nth-child(4) .star {
+      width: 60px; }
+    .cards__one p:nth-child(5) .star {
+      width: 75px; }
 
-div {
-  width: 200px;
-  height: 300px;
-  background-color: aliceblue;
-  border-radius: 10px;
-  margin: 10px;
-  text-align: center; }
-  div .star__one, div .star__two, div .star__three, div .star__four, div .star__five {
-    width: 15px;
-    height: 15px;
-    border-radius: 0%;
-    display: block;
-    background-image: url("../images/images/star.svg");
-    margin: 30px auto;
-    border-bottom: none; }
+.star {
+  width: 15px;
+  height: 15px;
+  border-radius: 0%;
+  background-image: url("../images/images/star.svg");
+  background-repeat: repeat-x;
+  background-size: 15px 15px;
+  margin: 30px auto;
+  border-bottom: none; }
 
 img {
   width: 120px;

@@ -5,30 +5,33 @@
   padding: 0
   box-sizing: border-box
 
-main
+.cards
   display: flex
   justify-content: space-around
   margin-top: 10%
+  &__one
+    width: 200px
+    height: 300px
+    background-color: aliceblue
+    border-radius: 10px
+    margin: 10px
+    text-align: center
+    p
+      @for $i from 1 through 5
+        &:nth-child(#{$i})
+          .star
+            width: 15px*$i
 
-//@mixin border__b ($border)
-//  border-bottom: $border
+.star
+  width: 15px
+  height: 15px
+  border-radius: 0%
+  background-image: url("../images/images/star.svg")
+  background-repeat: repeat-x
+  background-size: 15px 15px
+  margin: 30px auto
+  border-bottom: none
 
-div
-  width: 200px
-  height: 300px
-  background-color: aliceblue
-  border-radius: 10px
-  margin: 10px
-  text-align: center
-
-  .star__one, .star__two, .star__three, .star__four, .star__five
-    width: 15px
-    height: 15px
-    border-radius: 0%
-    display: block
-    background-image: url("../images/images/star.svg")
-    margin: 30px auto
-    border-bottom: none
 
 
 img
