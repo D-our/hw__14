@@ -44,15 +44,15 @@
     border-radius: 10px;
     margin: 10px;
     text-align: center; }
-    .cards__one p:nth-child(1) .star {
+    .cards__one:nth-child(1) .star {
       width: 15px; }
-    .cards__one p:nth-child(2) .star {
+    .cards__one:nth-child(2) .star {
       width: 30px; }
-    .cards__one p:nth-child(3) .star {
+    .cards__one:nth-child(3) .star {
       width: 45px; }
-    .cards__one p:nth-child(4) .star {
+    .cards__one:nth-child(4) .star {
       width: 60px; }
-    .cards__one p:nth-child(5) .star {
+    .cards__one:nth-child(5) .star {
       width: 75px; }
 
 .star {

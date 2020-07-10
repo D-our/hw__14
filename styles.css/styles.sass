@@ -17,10 +17,10 @@
     margin: 10px
     text-align: center
     p
-      @for $i from 1 through 5
-        &:nth-child(#{$i})
-          .star
-            width: 15px*$i
+    @for $i from 1 through 5
+      &:nth-child(#{$i})
+        .star
+          width: 15px*$i
 
 .star
   width: 15px
